@@ -8,14 +8,14 @@
 </head>
 <body>
   <header class="header">
-    <h1 class="title">スタジオで遊ぶ会（Members）</h1>
+    <h1 class="title">スタジオで遊ぶ会メンバー専用ポータル</h1>
     <nav class="tabs" id="tabs">
       <a class="tab" href="#home" data-section="home" data-accent="red">概要</a>
-      <a class="tab" href="#rules" data-section="rules" data-accent="yellow">ルール！</a>
+      <a class="tab" href="#rules" data-section="rules" data-accent="yellow">ルール</a>
       <a class="tab" href="#schedule" data-section="schedule" data-accent="red">スケジュール</a>
-      <a class="tab" href="#upcoming" data-section="upcoming" data-accent="yellow">直近イベント</a>
+      <a class="tab" href="#upcoming" data-section="upcoming" data-accent="yellow">直近イベント情報</a>
       <a class="tab" href="#videos" data-section="videos" data-accent="red">過去動画</a>
-      <a class="tab" href="#songs" data-section="songs" data-accent="yellow">やった曲</a>
+      <a class="tab" href="#songs" data-section="songs" data-accent="yellow">過去課題曲(工事中)</a>
     </nav>
   </header>
 
@@ -24,8 +24,8 @@
     <section class="card" data-section="home">
       <h2>概要（超サマリ）</h2>
       <ul class="list">
-        <li>社会人バンドサークル。ホスト不在、みんなで回す。</li>
-        <li>機密情報は置かない（共通パスワードで閲覧制限）。</li>
+        <li>スタジオで遊ぶ会のメンバー専用サイトです。</li>
+        <li>みんなで協力して運営していきましょう！</li>
       </ul>
 
       <h3>リンク</h3>
@@ -34,14 +34,14 @@
         <li><a href="assets/pdf/profile.pdf" target="_blank" rel="noopener">プロフィールファイル（PDF）</a></li>
       </ul>
 
-      <p class="note">※このページはスマホ前提。上のタブでOneNote風に移動できます。</p>
+      <p class="note">※本サイトの不具合等あれば中野までご連絡ください</p>
     </section>
 
     <!-- ルール -->
     <section class="card" data-section="rules">
-      <h2>ルール！</h2>
+      <h2>本コミュニティのルール</h2>
       <p><strong>ホストがいないサークルなので、みんなで積極的に回していきましょう。</strong></p>
-      <p class="note">「開かない野郎対策」：ルールは画像でベタ貼りします。</p>
+      <p class="note">以下ルール</p>
       <img class="full-img" src="assets/img/rules.png" alt="ルール（パワポ画像）">
     </section>
 
@@ -50,13 +50,13 @@
       <h2>スケジュール</h2>
       <div id="statusBox" class="note"></div>
       <div id="scheduleList"></div>
-      <p class="note">更新は data/schedule.json を編集するだけ（IT弱めでもいける運用）。</p>
+      <p class="note">更新は data/schedule.json を編集して更新。</p>
     </section>
 
     <!-- 直近イベント -->
     <section class="card" data-section="upcoming">
-      <h2>直近のイベント（最優先）</h2>
-      <p class="note">ここは「確認してほしいファイル置き場」。過去と混在させない。</p>
+      <h2>直近のイベント情報</h2>
+      <p class="note">以下ファイルをご確認ください。</p>
       <ul class="list">
         <li>
           2026-02-xx 例：次回スタジオ資料
@@ -67,7 +67,7 @@
       <h3>（任意）過去イベントの保管</h3>
       <p class="note">過去は archive/ へ（ここではリンクを薄く置くか別ページ扱いでもOK）。</p>
       <ul class="list">
-        <li><a href="assets/pdf/events/archive/" target="_blank" rel="noopener">アーカイブ（フォルダ）</a>（※運用によっては非推奨）</li>
+        <li><a href="assets/pdf/events/archive/" target="_blank" rel="noopener">アーカイブフォルダ</a></li>
       </ul>
     </section>
 
@@ -81,9 +81,9 @@
 
     <!-- 超優先度低 -->
     <section class="card" data-section="songs">
-      <h2>やった曲リスト（超優先度低）</h2>
+      <h2>過去課題曲曲リスト（工事中）</h2>
       <ul class="list">
-        <li>（そのうち）</li>
+        <li>（そのうち更新）</li>
       </ul>
     </section>
   </main>
@@ -91,3 +91,4 @@
   <script src="app.js"></script>
 </body>
 </html>
+
