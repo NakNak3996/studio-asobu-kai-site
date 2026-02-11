@@ -76,19 +76,16 @@ body{
   border-radius: 0 12px 6px 0;
 }
 
-/* 選択中タブ（セクションごとに色を変える） */
+/* 選択中タブ（赤固定） */
 .tab.is-active{
+  background: var(--red);
   border-color: transparent;
   color: #fff;
 }
 .tab.is-active::after{
+  background: var(--red);
   border-color: transparent;
 }
-
-/* セクション別の色（赤/黄） */
-.tab[data-accent="red"].is-active{ background: var(--red); }
-.tab[data-accent="yellow"].is-active{ background: var(--yellow); color: #2b2b2b; }
-.tab[data-accent="yellow"].is-active::after{ background: var(--yellow); }
 
 /* メイン領域 */
 main{
@@ -154,3 +151,4 @@ a:hover{ opacity: .9; }
   .title{ font-size: 18px; }
   .tab{ font-size: 14px; }
 }
+
